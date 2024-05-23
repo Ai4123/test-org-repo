@@ -15,4 +15,4 @@ jobs:
       uses: VauntDev/vaunt-cards-action@main
       with:
         # Github Personal Access Token for private repositories
-        token: ${{ secrets.PAT }}
+        token: ${{ secrets.ACTIONS_TOKENSFORORG }}
